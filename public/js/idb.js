@@ -1,6 +1,3 @@
-const { response } = require("express");
-const { ServerResponse } = require("http");
-
 // create variable to hold db connection
 let db;
 
@@ -17,7 +14,7 @@ request.onupgradeneeded = function(event) {
 request.onsuccess = function(event) {
     db = event.target.result;
 
-    if (navigator.online)  {
+    if (navigator.onLine)  {
         // function();
         uploadBudget();
     }
