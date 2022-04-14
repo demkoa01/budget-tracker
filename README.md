@@ -1,5 +1,8 @@
 # Budget Tracker
 
+### URL
+### Try the application here!: 
+
 ## Description
 ### The purpose of this application is give users an easy way to track their money while being able to access it at any time, even if they are offline.
 ### This project started with an existing code and has been updated to fit the functionality described above. 
@@ -23,6 +26,10 @@
 ### - mainifest.json
 ### - MondoDB Atlas
 ### - Heroku
+### - Express.js
+### - Mongoose
+### - NoSQL
 
-
-## Screenshot
+## Screenshot!
+[screenshot](https://user-images.githubusercontent.com/93881224/163468613-5db52e85-1517-47c3-b969-d28eaad43bfb.JPG)
+### Screenshot of the application on localhost
